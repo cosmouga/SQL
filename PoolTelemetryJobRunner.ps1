@@ -34,7 +34,7 @@
 Login-AzureRMAccount 
  
 # Set the Azure subscription, needed if your Microsoft account is associated with multiple subscriptions  <<< ***
-$AzureSubscriptionName = '<Your Subscription Name>'
+$AzureSubscriptionName = 'Citrix Analytics (AUT RnD) (Env RnD) (Dev_Test)'
 $Subscription = Get-AzureRmSubscription -SubscriptionName $AzureSubscriptionName | Select-AzureRmSubscription
 
 $SubscriptionId = $Subscription.Subscription.SubscriptionId
